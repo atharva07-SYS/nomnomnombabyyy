@@ -20,14 +20,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 3rem 1rem;
     color: var(--text);
     position: relative;
 }
 
 /* Dreamy Animated Background */
 .animated-bg {
-    position: absolute;
+    position: fixed;
     top: -50%;
     left: -50%;
     width: 200%;
@@ -58,7 +60,7 @@ body {
 }
 
 .background-elements {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -234,7 +236,7 @@ body {
 
 /* Peeking Characters */
 .peeking-char {
-    position: absolute;
+    position: fixed;
     bottom: -10px;
     height: 180px;
     z-index: 5;

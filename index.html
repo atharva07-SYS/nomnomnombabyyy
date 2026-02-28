@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'm So Sorry! 🥺</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="animated-bg"></div>
+    <div class="background-elements" id="bg-elements"></div>
+
+    <!-- Romantic characters peeking from corners -->
+    <img src="https://media.tenor.com/1B-c_S79JpQAAAAi/bubu-dudu-bubu.gif" class="peeking-char left-char"
+        alt="Cute Bear Peeking">
+    <img src="https://media.tenor.com/_u8lqLd1jM8AAAAi/bubu-dudu-kisses.gif" class="peeking-char right-char"
+        alt="Cute Bear Kissing">
+
+    <div class="container" id="main-container">
+        <div class="bear-container">
+            <img class="bear" id="bear" src="https://media.tenor.com/Gf8XJ1t7g4MAAAAi/bubu-dudu.gif" alt="Crying Bear">
+        </div>
+        <h1 class="title">I'm so sorry, babyyyy... 🥺</h1>
+        <p class="message">I won't make this mistake again.<br>Please forgive meee!<br>My heart aches without your
+            smile. 💔</p>
+
+        <div class="buttons">
+            <button class="btn btn-yes" id="btn-yes">Yes, I forgive you ❤️</button>
+            <button class="btn btn-no" id="btn-no">No, I'm still mad 😤</button>
+        </div>
+    </div>
+
+    <!-- Background Music (Audio must be triggered by user interaction usually, we'll try to autoplay or play on click) -->
+    <audio id="bg-music" loop>
+        <source src="https://actions.google.com/sounds/v1/water/rain_on_roof.ogg" type="audio/ogg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
